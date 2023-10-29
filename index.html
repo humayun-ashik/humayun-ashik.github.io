@@ -1,71 +1,569 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<link rel="shortcut icon" type="image/ico" href="./assets/images/icon.ico">
-	<link href="./assets/favicon.ico" rel="icon">
-	<title>Humayun Ahmed Ashik | Software Quality Assuarance Engineer</title>  
-	<link href="./main.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-<body class="minimal">
-	<div id="site-border-left"></div> 
-	<div id="site-border-right"></div>
-	<div id="site-border-top"></div>
-	<div id="site-border-bottom"></div>
-<!-- Add your content of header -->
-	<header>
-		<nav class="navbar  navbar-fixed-top navbar-inverse">
-			<div class="container">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbar-collapse">
-					<ul class="nav navbar-nav ">
-					  <li><a href="./index.html" title="">Home</a></li>
-					  <li><a href="./works.html" title="">Projects</a></li>
-					  <li><a href="./about.html" title="">About</a></li>
-					  <li><a href="./blog.html" title="">Blog</a></li>
-					  <li><a href="./contact.html" title="">Contact</a></li>
-					</ul>
-				</div> 
-			</div>
-		</nav>
-	</header>
-<!-- Add your site or app content here -->
-	<div class="hero-full-container background-image-container white-text-container" style="background-image: url('./assets/images/back0.jpg')">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="hero-full-wrapper">
-            <div class="text-content">
-              <h1>Hi there,<br>
-                <span id="typed-strings">
-                  <span>I'm Humayun Ahmed Ashik</span>
-                  <span>A Software Quality Assurance Engineer</span>
-                  <span>Have Something to Discuss ?</span>
-                  <span>Let's Catch Up !!</span>
-                </span>
-                <span id="typed"></span>
-              </h1>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/profile-12.png" alt="">
+                </div>
             </div>
-          </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Humayun Ahmed Ashik.</span>
+                    A Software Test Engineer.
+                </h1>
+                <p>
+                    I'm a seasoned Software QA Engineer with 4+ years of experience. 
+					I'm passionate about elevating software quality through rigorous testing and test automation !
+                </p>
+                <div class="btn-con">
+                    <a href="assets/resume.pdf" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Info. About me</h4>
+                    <p>
+                        My name is Humayun Ahmed Ashik and I am a Software Quality Assurance Engineer with 4+ 
+						years of industry experience in testing web and mobile applications.<br /> <br /> 
+						I have exposure of working in digital finacial service and banking apps, online lottery system, open api system, ordering and payment app.
+						<br /> <br /> I consider testing as a scientific activity, process of evaluation of quality, exploration, modeling, experimentation, risk assesment and gathering of information. 
+                    </p>
+                    <div class="btn-con">
+                        <a href="assets/resume.pdf" class="main-btn">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">8+</p>
+                            <p class="small-text">Projects <br /> Completed</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">4+</p>
+                            <p class="small-text">Years of <br /> experience</p>
+                        </div>
+                    </div>
+					<div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text"></p>
+                            <p class="small-text">Exploratory Testing</p>
+                        </div>
+                    </div>
+					<div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text"></p>
+                            <p class="small-text">API Testing</p>
+                        </div>
+                    </div>
+					<div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text"></p>
+                            <p class="small-text">Load Testing</p>
+                        </div>
+                    </div>
+					<div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text"></p>
+                            <p class="small-text">Sanity / Regression Testing</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">Coding Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">Java</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Python</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Javascript</p>
+                        <div class="progress-con">
+                            <p class="prog-text">50%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+					<div class="progress-bar">
+                        <p class="prog-title">SQL</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+				<h4 class="stat-title">Framework & Library</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">Selenium</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Appium</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">TestNG</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+					<div class="progress-bar">
+                        <p class="prog-title">Rest Assured</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+				<h4 class="stat-title">Tools & Tech</h4>
+                <div class="progress-bars">
+					<div class="progress-bar">
+                        <p class="prog-title">JMeter</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Postman</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Jira</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">TestRail</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+					<div class="progress-bar">
+                        <p class="prog-title">Firebase</p>
+                        <div class="progress-con">
+                            <p class="prog-text">50%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="progress-bar">
+                        <p class="prog-title">Git</p>
+                        <div class="progress-con">
+                            <p class="prog-text">60%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+					<div class="progress-bar">
+                        <p class="prog-title">Github Action</p>
+                        <div class="progress-con">
+                            <p class="prog-text">50%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+					<div class="progress-bar">
+                        <p class="prog-title">Jenkins</p>
+                        <div class="progress-con">
+                            <p class="prog-text">50%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+					<div class="progress-bar">
+                        <p class="prog-title">Grafana</p>
+                        <div class="progress-con">
+                            <p class="prog-text">50%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <h4 class="stat-title">My Timeline</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2023 - present</p>
+                    <h5>Sr. QA Automation Engineer<span> - CHEQ Inc.</span></h5>
+                    <p>
+                        <li> + Perform manual testing</li>
+                        <li> + Write automation scripts to automate testing activities</li>
+                        <li> + Prepare test plan and test cases</li>
+                        <li> + Come up with best practices and tools for QA Automation</li>
+                        <li> + Participate in code reviews, technical discoveries and spikes</li>
+                        <li> + Actively participate in Agile/Scrum events</li>
+                        <li> + Work as a self managed team</li>
+                            
+                            
+                            
+                            
+                            
+                           
+                    </p>
+                </div>
+
+				<div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2014 - 2018</p>
+                    <h5>B.Sc in Computer Science and Engineering<span> - Rajshahi University of Engineering & Technology</span></h5>
+                    <p>
+
+
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2019 - 2022</p>
+                    <h5>Software QA Engineer<span> - Kona Software Lab Ltd.</span></h5>
+                    <p>
+                        <li>+ Actively worked in an agile software development environment which utilized the Scrum process.</li>
+                        <li>+ Load testing script preparation using JMeter.</li>
+                        <li>+ API testing using postman.</li>
+                        <li>+ Hands on mobile app testing.</li>
+                        <li>+ Performed Web portal automation testing using Selenium</li>
+                        <li>+ Performed Web portal automation testing using Selenium WebDriver which utilizes POM design pattern, Maven, TestNG etc.</li>
+                        <li>+ Requirement analysis, design test scenarios and maintain test cases in TestRail for financial apps.</li>
+                        <li>+ Logging and tracking bug through JIRA.</li>
+                    </p>
+                </div>
+
+
+               
+
+            </div>
+        </section>
+
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+            </div>
+            <p class="port-text" >
+                >> These are some of my Notable works <<
+            </p>
+            <div class="portfolios">
+				<div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/project-1.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3 class="port-text"> Selenium UI Automation</h3>
+                        <div class="icons">
+                            <a href="https://github.com/humayun-ashik/automation-exercise-selenium" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/project-2.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3 class="port-text"> Webdriver IO Automation</h3>
+                        <div class="icons">
+                            <a href="https://github.com/humayun-ashik/webdriverio-mocha-ui-automation" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/project-3.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3 class="port-text"> RestAssured API Testing</h3>
+                        <div class="icons">
+                            <a href="https://github.com/humayun-ashik/restassured-apitesting-framework" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/project-4.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3 class="port-text">Clearing Automation Tool</h3>
+                        <div class="icons">
+                            <a href="https://github.com/humayun-ashik/clearing-automation-tool" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
+                </div>
+                <div class="blogs">
+                    <div class="blog">
+                        <img src="img/blog-1.png" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                WEB SCRAPING MADE EASY WITH SCRAPY
+                            </h4>
+                            
+                            <p>
+                                Whether you're a market researcher, a data analyst, or simply someone who loves crunching numbers, 
+                                the ability to collect and analyze data from the web is a valuable skill.
+                            </p>
+                            <div class="btn-con">
+                                <a href="https://automation-alchemist.blogspot.com/2023/09/web-scraping-made-easy-with-scrapy.html" target="_blank" class="main-btn">
+                                    <span class="btn-text">..READ</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog-2.png" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Frequently Used Unix Commands for Software Tester
+                            </h4>
+                            <p>
+                                Unix commands can be very handy during any query result fetching from server log, here are some useful Unix commands for testers.
+                            </p>
+                            <div class="btn-con">
+                                <a href="https://humayun-ashik.hashnode.dev/frequently-used-unix-commands-for-software-tester" target="_blank" class="main-btn">
+                                    <span class="btn-text">..READ</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+                            I'm eager to connect with fellow professionals, exchange insights, and explore collaboration. 
+                            Whether you're into QA, tech, or simply seeking connections, feel free to reach out to explore possibilities.
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>
+                                    : Dhaka, Bangladesh
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    : <small>humayunahmedashik@gmail.com</small>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education</span>
+                                </div>
+                                <p>
+                                    <span>: RUET, Bangladesh</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Mobile Number</span>
+                                </div>
+                                <p>
+                                    <span>: 01750789814</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p>
+                                    <span>: Bengali, English</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://www.facebook.com/45h1k68" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://twitter.com/HumayunAshik" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://github.com/humayun-ashik" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.youtube.com/@HumayunAhmedAshik" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form method = "post" action="https://formspree.io/humayunahmedashik@gmail.com" action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="#" class="main-btn">
+                                    <span class="btn-text">SUBMIT</span>
+                                
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
     </div>
-  </div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-     type();
-     movingBackgroundImage();
-  });
-</script>
-
-
-<script type="text/javascript" src="./main.70a66962.js"></script></body>
-
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
 </html>
